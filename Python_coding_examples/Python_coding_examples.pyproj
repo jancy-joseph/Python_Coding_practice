@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>46316ded-7c42-4900-a210-2ad64d6d3ad8</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Python_coding_examples.py</StartupFile>
+    <StartupFile>sudoku.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Python_coding_examples.py" />
+    <Compile Include="RockPaperScissors.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sudoku.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

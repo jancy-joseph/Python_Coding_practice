@@ -1,4 +1,4 @@
-import os
+import osp
 os.getcwd()
 os.chdir('C:\\Users\\jancy\\source\\repos\\Python_coding_examples')
 os.getcwd()
